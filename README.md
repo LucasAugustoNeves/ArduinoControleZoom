@@ -7,6 +7,8 @@ Esse projeto tratasse da construção de um painel de boto~e configuraveis para 
 
 ![](20201122_193111.jpg)
 
+![](IMG-20201125-WA0008.jpeg)
+
 ## Instalação
 
 Windows:
