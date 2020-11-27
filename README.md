@@ -12,11 +12,6 @@ Esse projeto tratasse da construção de um painel de boto~e configuraveis para 
 Windows:
 
 
-## Exemplo de uso
-
-Alguns exemplos interessantes e úteis sobre como seu projeto pode ser utilizado. Adicione blocos de códigos e, se necessário, screenshots.
-
-_Para mais exemplos, consulte a [Wiki][wiki]._ 
 
 ## Configuração para Desenvolvimento
 
