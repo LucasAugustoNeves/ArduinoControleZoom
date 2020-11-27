@@ -1,11 +1,11 @@
 # ArduinoControleZoom
-# Nome do produto
+
 > Painel de Controle para Reuniões do zoom
 
 
 Esse projeto tratasse da construção de um painel de boto~e configuraveis para reuniões no zoom, podendo colocar uma função em cada botão
 
-![](../header.png)
+![](20201122_193111.jpg)
 
 ## Instalação
 
