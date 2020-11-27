@@ -13,11 +13,11 @@
 
 
 #ifdef ZOOMBTNS
-#define BTN1 6
-#define BTN2 7
-#define BTN3 8
-#define BTN4 9
-#define BTN5 10
+#define BTN1 8
+#define BTN2 9
+#define BTN3 10
+#define BTN4 11
+#define BTN5 12  
 #define BTN6 A0
 #define BTN7 A1
 #define BTN8 A2
@@ -69,55 +69,55 @@ void loop() {
           digitalWrite(led, HIGH);
           switch (i) {
 #if 1
-          case 0: // Alt-F2: Gallery view
-            //BootKeyboard.press(KEY_LEFT_ALT);
-            BootKeyboard.write(KEY_0);
-            //BootKeyboard.release(KEY_LEFT_ALT);
+          case 0: // ENCERRAR REUNOÃO
+            BootKeyboard.press(KEY_LEFT_ALT);
+            BootKeyboard.write(KEY_Q);
+            BootKeyboard.release(KEY_LEFT_ALT);
             break;
-          case 1: // Alt-F1: Speaker view
-            //BootKeyboard.press(KEY_LEFT_ALT);
-            BootKeyboard.write(KEY_1);
-            //BootKeyboard.release(KEY_LEFT_ALT);
+          case 1: // VIDEO IN/FN
+            BootKeyboard.press(KEY_LEFT_ALT);
+            BootKeyboard.write(KEY_V);
+            BootKeyboard.release(KEY_LEFT_ALT);
             break;
-          case 2: // Alt-M: Mute all
-            //BootKeyboard.press(KEY_LEFT_ALT);
-            BootKeyboard.write(KEY_2);
-            //BootKeyboard.release(KEY_LEFT_ALT);
+          case 2: // ATV MEU SOM
+            BootKeyboard.press(KEY_LEFT_ALT);
+            BootKeyboard.write(KEY_A);
+            BootKeyboard.release(KEY_LEFT_ALT);
             break;
-          case 3: // Alt-A: Mute self
-            //BootKeyboard.press(KEY_LEFT_ALT);
-            BootKeyboard.write(KEY_3);
-            //BootKeyboard.release(KEY_LEFT_ALT);
+          case 3: // DEIXAR TODOS SEM SOM
+            BootKeyboard.press(KEY_LEFT_ALT);
+            BootKeyboard.write(KEY_M);
+            BootKeyboard.release(KEY_LEFT_ALT);
             break;
-          case 4: // Alt-F: Full screen
-            //BootKeyboard.press(KEY_LEFT_ALT);
-            BootKeyboard.write(KEY_4);
-            //BootKeyboard.release(KEY_LEFT_ALT);
+          case 4: // IN/TR COMPARTILHAR TELA
+            BootKeyboard.press(KEY_LEFT_ALT);
+            BootKeyboard.write(KEY_S);
+            BootKeyboard.release(KEY_LEFT_ALT);
             break;
-          case 5: // Alt-S: Share screen
-            //BootKeyboard.press(KEY_LEFT_ALT);
-            BootKeyboard.write(KEY_5);
-            //BootKeyboard.release(KEY_LEFT_ALT);
+          case 5: // PAUSA COMPARTILHAR TELA
+            BootKeyboard.press(KEY_LEFT_ALT);
+            BootKeyboard.write(KEY_T);
+            BootKeyboard.release(KEY_LEFT_ALT);
             break;
-          case 6: // Alt-S: Share screen
-            //BootKeyboard.press(KEY_LEFT_ALT);
-            BootKeyboard.write(KEY_6);
-            //BootKeyboard.release(KEY_LEFT_ALT);
+          case 6: // TELA CHEIA
+            BootKeyboard.press(KEY_LEFT_ALT);
+            BootKeyboard.write(KEY_F);
+            BootKeyboard.release(KEY_LEFT_ALT);
             break;
-         case 7: // Alt-S: Share screen
-            //BootKeyboard.press(KEY_LEFT_ALT);
-            BootKeyboard.write(KEY_7);
-            //BootKeyboard.release(KEY_LEFT_ALT);
+         case 7: // PAINEL DE PARTICIPANTES
+            BootKeyboard.press(KEY_LEFT_ALT);
+            BootKeyboard.write(KEY_U);
+            BootKeyboard.release(KEY_LEFT_ALT);
             break;
-         case 8: // Alt-S: Share screen
-            //BootKeyboard.press(KEY_LEFT_ALT);
-            BootKeyboard.write(KEY_8);
-            //BootKeyboard.release(KEY_LEFT_ALT);
+         case 8: // GALERIA
+            BootKeyboard.press(KEY_LEFT_ALT);
+            BootKeyboard.write(KEY_F2);
+            BootKeyboard.release(KEY_LEFT_ALT);
             break;  
-          case 9: // Alt-S: Share screen
-            //BootKeyboard.press(KEY_LEFT_ALT);
-            BootKeyboard.write(KEY_9);
-            //BootKeyboard.release(KEY_LEFT_ALT);
+          case 9: // ORADOR
+            BootKeyboard.press(KEY_LEFT_ALT);
+            BootKeyboard.write(KEY_F1);
+            BootKeyboard.release(KEY_LEFT_ALT);
             break;
 #else
           case 0:
